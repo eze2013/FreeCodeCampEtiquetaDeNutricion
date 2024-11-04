@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: "Open Sans",sans-serif;
+}
+
+.label{
+    border: 2px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+header h1{
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px;/*hace que se espacien las palabras*/
+}
+
+p{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider{
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;/*primero superior inferior despues derecha izquierda*/
+}
+
+.bold{
+    font-weight: 800;/*hace resaltar mas el texto*/
+}
+
+.large{
+    height: 10px;
+}
+
+.large, .medium{ /*se utiliza para las barras*/
+    background-color: black;
+    border: 0;
+}
+
+.small-text{
+    font-size: 0.85rem;
+}
+
+.calories-info h2{
+    margin: 0;
+}
+
+.calories-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.left-container p{
+    margin: -5px -2px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.calories-info span{
+    font-size: 2.4em;
+    font-weight: 700;
+    margin: -7px -2px;
+}
+
+.medium{
+    height: 5px;
+}
+
+.right{
+    justify-content: flex-end;/*manda el texto al final de la linea*/
+}
+
+.indent{
+    margin-left: 1em;
+}
+
+.daily-value p:not(.no-divider){/*se puede utilizar para seleccionar todos los elementos que no coincidan con la regla CSS dada.*/
+    border-bottom: 1px solid #888989;
+}
+
+.double-indent{
+    margin-left: 2em;
+}
+
+.note{
+    font-size: 0.6rem;
+    margin: 5px 0;
+    text-indent: -8px;
+    padding: 0 8px;
+}
